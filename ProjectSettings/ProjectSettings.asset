@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: RiveriaStudent
-  productName: MobileGame_Template
+  productName: Sakura
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -40,10 +40,12 @@ PlayerSettings:
     width: 1
     height: 1
   m_SplashScreenLogos:
-  - logo: {fileID: 1095566990, guid: 293929c7e114a634eb9ec9e37ef51d31, type: 3}
-    duration: 2
+  - logo: {fileID: 21300000, guid: 2db79ec7e2151c44ebed6c9d3f5d0a80, type: 3}
+    duration: 3
+  - logo: {fileID: 21300000, guid: ec5d1460808fadc4997f73b12a1baf0e, type: 3}
+    duration: 3
   - logo: {fileID: 10404, guid: 0000000000000000e000000000000000, type: 0}
-    duration: 2
+    duration: 3
   m_VirtualRealitySplashScreen: {fileID: 0}
   m_HolographicTrackingLossScreen: {fileID: 0}
   defaultScreenWidth: 1920
@@ -159,7 +161,7 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
-    Android: com.RiveriaStudent.MobileGame_Template
+    Android: com.RiveriaStudent.Sakura
   buildNumber:
     Standalone: 0
     iPhone: 0
@@ -261,7 +263,7 @@ PlayerSettings:
   AndroidEnableTango: 0
   androidEnableBanner: 1
   androidUseLowAccuracyLocation: 0
-  androidUseCustomKeystore: 1
+  androidUseCustomKeystore: 0
   m_AndroidBanners:
   - width: 320
     height: 180
@@ -338,39 +340,43 @@ PlayerSettings:
       m_Kind: 0
       m_SubKind: 
     - m_Textures:
-      - {fileID: 2800000, guid: 9be9c1d0f92654249822e9db5e55a97f, type: 3}
-      - {fileID: 0}
+      - {fileID: 10300, guid: 0000000000000000f000000000000000, type: 0}
+      - {fileID: 2800000, guid: b705274cd0781074e87fcd729b02d347, type: 3}
       m_Width: 432
       m_Height: 432
       m_Kind: 2
       m_SubKind: 
     - m_Textures:
-      - {fileID: 2800000, guid: c75a63ebdcee1db45b07756a3a2f2350, type: 3}
-      - {fileID: 2800000, guid: 9be9c1d0f92654249822e9db5e55a97f, type: 3}
+      - {fileID: 10300, guid: 0000000000000000f000000000000000, type: 0}
+      - {fileID: 2800000, guid: b705274cd0781074e87fcd729b02d347, type: 3}
       m_Width: 324
       m_Height: 324
       m_Kind: 2
       m_SubKind: 
     - m_Textures:
-      - {fileID: 2800000, guid: c75a63ebdcee1db45b07756a3a2f2350, type: 3}
-      - {fileID: 0}
+      - {fileID: 10300, guid: 0000000000000000f000000000000000, type: 0}
+      - {fileID: 2800000, guid: b705274cd0781074e87fcd729b02d347, type: 3}
       m_Width: 216
       m_Height: 216
       m_Kind: 2
       m_SubKind: 
-    - m_Textures: []
+    - m_Textures:
+      - {fileID: 10300, guid: 0000000000000000f000000000000000, type: 0}
+      - {fileID: 2800000, guid: b705274cd0781074e87fcd729b02d347, type: 3}
       m_Width: 162
       m_Height: 162
       m_Kind: 2
       m_SubKind: 
     - m_Textures:
-      - {fileID: 2800000, guid: c75a63ebdcee1db45b07756a3a2f2350, type: 3}
-      - {fileID: 0}
+      - {fileID: 10300, guid: 0000000000000000f000000000000000, type: 0}
+      - {fileID: 2800000, guid: b705274cd0781074e87fcd729b02d347, type: 3}
       m_Width: 108
       m_Height: 108
       m_Kind: 2
       m_SubKind: 
-    - m_Textures: []
+    - m_Textures:
+      - {fileID: 10300, guid: 0000000000000000f000000000000000, type: 0}
+      - {fileID: 2800000, guid: b705274cd0781074e87fcd729b02d347, type: 3}
       m_Width: 81
       m_Height: 81
       m_Kind: 2
@@ -696,7 +702,7 @@ PlayerSettings:
   ps4IncludedModules: []
   ps4attribVROutputEnabled: 0
   monoEnv: 
-  splashScreenBackgroundSourceLandscape: {fileID: 21300000, guid: 4c24bd3de27c3184492fe3a2a4af4869, type: 3}
+  splashScreenBackgroundSourceLandscape: {fileID: 0}
   splashScreenBackgroundSourcePortrait: {fileID: 0}
   blurSplashScreenBackground: 1
   spritePackerPolicy: 

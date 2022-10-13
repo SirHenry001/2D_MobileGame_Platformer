@@ -133,6 +133,38 @@ public class CollisionScript : MonoBehaviour
         {
             levelPopUp.SetActive(true);
             gameOver = true;
+
+            levelPopUp.SetActive(true);
+            gameOver = true;
+
+            for (int i = 0; i < stars.Length; i++)
+            {
+                stars[i].SetActive(false);
+            }
+
+            if (reward == rewardScore1)
+            {
+                starsGained = 1;
+            }
+
+            if (reward == rewardScore2)
+            {
+                starsGained = 2;
+            }
+
+            if (reward == rewardScore3)
+            {
+                starsGained = 3;
+            }
+
+            if (starsGained > starsRecord)
+            {
+                starsRecord = starsGained;
+            }
+
+            gameManager.level1Stars = starsRecord;
+
+            StartCoroutine(StarAppear());
         }
     }
 

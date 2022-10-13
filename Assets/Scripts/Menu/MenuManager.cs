@@ -10,6 +10,7 @@ public class MenuManager : MonoBehaviour
     //VARIABLES FOR POP UP SCREENS
     public GameObject levelPopUp;
     public GameObject optionsPopUp;
+    public GameObject aboutPopUp;
     public GameObject levelList;
 
     public GameObject playButton;
@@ -77,6 +78,18 @@ public class MenuManager : MonoBehaviour
     {
         optionsPopUp.GetComponent<Animator>().SetBool("Appear", false);
         optionsPopUp.GetComponent<Animator>().SetBool("Disappear", true);
+    }
+
+    public void OpenAbout()
+    {
+        aboutPopUp.SetActive(true);
+        aboutPopUp.GetComponent<Animator>().SetBool("Appear", true);
+    }
+
+    public void CloseAbout()
+    {
+        aboutPopUp.GetComponent<Animator>().SetBool("Appear", false);
+        aboutPopUp.GetComponent<Animator>().SetBool("Disappear", true);
     }
 
     public void OpenLevel()
